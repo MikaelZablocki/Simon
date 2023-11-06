@@ -1,0 +1,115 @@
+ @font-face {
+    font-family:First ;
+    src: url(./Silon\ Fonts/Roboto-Regular.ttf);
+ }
+
+@font-face {
+    font-family: second;
+    src: url(./Silon\ Fonts/Poppins-Regular.ttf);
+}
+    
+ 
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+.header {
+    display: flex;
+}
+
+.header-img {
+    width: 7rem;
+    margin: 3vw;
+    margin-right:45%;
+}
+
+
+#header-icon-A {
+ margin-right: 1rem;
+}
+
+#header-icon-A:hover {
+    color: orangered;
+}
+
+#header-icon-B {
+    margin-right: 1rem;
+}
+#header-icon-B:hover {
+    color: orangered;
+}
+
+#header-icon-C {
+    margin-right: 1rem;
+}
+#header-icon-C:hover {
+    color: orangered;
+}
+
+#header-icon-D {
+    margin-right: 1rem;
+}
+#header-icon-D:hover {
+    color: orangered;
+}
+
+ p {
+    color:dimgray ;
+    font-family: second;
+    letter-spacing: 2px ;
+    font-size:3vw ;
+ }
+
+ h1 {
+    font-family: first ;
+    padding-top: 1rem;
+ }
+
+
+ main {
+    background-image: url(./Silon\ Img/bg-1.jpg);
+    text-align: center;
+}
+
+.hero-img {
+width: 100%;
+padding-bottom: 2rem;
+}
+
+.hero-button {
+    background-color:orangered; 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-family: first;
+    transition-duration: 0.8s;
+    border-radius: 2px;
+}
+
+.hero-button:hover {
+background-color: rgb(255, 255, 255);
+color: rgb(52, 52, 138);
+}
+
+.model-image-A {
+width: 100%;
+
+}
+
+#list-icon {
+background-color: rgb(246, 183, 248);
+padding: 2rem;
+border-radius: 100%;
+position: absolute;
+
+}
+
+.list-icon-box:hover {
+   
+
+}
